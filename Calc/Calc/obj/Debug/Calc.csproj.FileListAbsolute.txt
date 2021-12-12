@@ -1,0 +1,8 @@
+C:\Users\Fedor Andreevich\Desktop\git\Calc\Calc\Calc\bin\Debug\Calc.exe.config
+C:\Users\Fedor Andreevich\Desktop\git\Calc\Calc\Calc\bin\Debug\Calc.exe
+C:\Users\Fedor Andreevich\Desktop\git\Calc\Calc\Calc\bin\Debug\Calc.pdb
+C:\Users\Fedor Andreevich\Desktop\git\Calc\Calc\Calc\obj\Debug\Calc.Properties.Resources.resources
+C:\Users\Fedor Andreevich\Desktop\git\Calc\Calc\Calc\obj\Debug\Calc.csproj.GenerateResource.cache
+C:\Users\Fedor Andreevich\Desktop\git\Calc\Calc\Calc\obj\Debug\Calc.csproj.CoreCompileInputs.cache
+C:\Users\Fedor Andreevich\Desktop\git\Calc\Calc\Calc\obj\Debug\Calc.exe
+C:\Users\Fedor Andreevich\Desktop\git\Calc\Calc\Calc\obj\Debug\Calc.pdb
