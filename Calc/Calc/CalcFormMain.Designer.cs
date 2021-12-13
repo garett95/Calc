@@ -48,6 +48,8 @@ namespace Calc
             this.btnEquals = new System.Windows.Forms.Button();
             this.btnPoint = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.Pow = new System.Windows.Forms.Button();
+            this.sqrt = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -57,6 +59,7 @@ namespace Calc
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(285, 69);
             this.textBox1.TabIndex = 1;
+            this.textBox1.Text = "0";
             // 
             // btnDigit1
             // 
@@ -216,6 +219,7 @@ namespace Calc
             this.btnEquals.TabIndex = 17;
             this.btnEquals.Text = "=";
             this.btnEquals.UseVisualStyleBackColor = true;
+            this.btnEquals.Click += new System.EventHandler(this.btnEquals_Click);
             // 
             // btnPoint
             // 
@@ -235,11 +239,33 @@ namespace Calc
             this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 19;
             // 
+            // Pow
+            // 
+            this.Pow.Location = new System.Drawing.Point(12, 250);
+            this.Pow.Name = "Pow";
+            this.Pow.Size = new System.Drawing.Size(75, 23);
+            this.Pow.TabIndex = 20;
+            this.Pow.Text = "^^";
+            this.Pow.UseVisualStyleBackColor = true;
+            this.Pow.Click += new System.EventHandler(this.Pow_Click);
+            // 
+            // sqrt
+            // 
+            this.sqrt.Location = new System.Drawing.Point(93, 250);
+            this.sqrt.Name = "sqrt";
+            this.sqrt.Size = new System.Drawing.Size(75, 23);
+            this.sqrt.TabIndex = 21;
+            this.sqrt.Text = "√";
+            this.sqrt.UseVisualStyleBackColor = true;
+            this.sqrt.Click += new System.EventHandler(this.sqrt_Click);
+            // 
             // CalcFormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.sqrt);
+            this.Controls.Add(this.Pow);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnPoint);
             this.Controls.Add(this.btnEquals);
@@ -286,6 +312,8 @@ namespace Calc
         private System.Windows.Forms.Button btnEquals;
         private System.Windows.Forms.Button btnPoint;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button Pow;
+        private System.Windows.Forms.Button sqrt;
     }
 }
 
